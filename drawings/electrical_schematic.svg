@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="820" viewBox="0 0 1300 820">
+<style>text{font-family:Arial,sans-serif;font-size:17px}.small{font-size:14px}.box{fill:#f8f8f8;stroke:#111;stroke-width:3}.power{stroke:#b11;stroke-width:7;fill:none}.return{stroke:#111;stroke-width:6;fill:none}.control{stroke:#176a8a;stroke-width:4;fill:none;stroke-dasharray:10 6}.label{font-weight:bold}</style>
+<text x="35" y="35" class="label">48 V traction and 12 V safety-control concept</text>
+<rect x="50" y="120" width="160" height="100" class="box"/><text x="90" y="175">Battery</text><text x="80" y="200" class="small">48 V class</text>
+<rect x="280" y="120" width="120" height="100" class="box"/><text x="315" y="178">Fuse</text>
+<rect x="470" y="120" width="165" height="100" class="box"/><text x="495" y="165">Service</text><text x="495" y="192">disconnect</text>
+<rect x="705" y="120" width="170" height="100" class="box"/><text x="742" y="165">Main</text><text x="730" y="192">contactor</text>
+<rect x="945" y="120" width="170" height="100" class="box"/><text x="980" y="165">Motor</text><text x="967" y="192">controller</text>
+<rect x="945" y="325" width="170" height="100" class="box"/><text x="995" y="382">BLDC</text><text x="995" y="407">motor</text>
+<path d="M210 150 H280 M400 150 H470 M635 150 H705 M875 150 H945" class="power"/><path d="M1030 220 V325" class="power"/>
+<path d="M210 195 H900 V195 H945" class="return"/><text x="500" y="255" class="small">Precharge path bridges contactor until DC bus reaches ~90% pack voltage</text>
+<rect x="80" y="500" width="180" height="90" class="box"/><text x="110" y="555">48→12 V DC/DC</text>
+<rect x="330" y="500" width="125" height="90" class="box"/><text x="355" y="555">Parent key</text>
+<rect x="525" y="500" width="130" height="90" class="box"/><text x="555" y="555">E-stop</text>
+<rect x="725" y="470" width="165" height="70" class="box"/><text x="750" y="512">Brake switch</text>
+<rect x="725" y="570" width="165" height="70" class="box"/><text x="750" y="612">Mode switch</text>
+<rect x="965" y="500" width="190" height="90" class="box"/><text x="990" y="540">Safety enable /</text><text x="1000" y="565">torque inhibit</text>
+<path d="M210 220 V545 H80" class="control"/><path d="M260 545 H330 M455 545 H525 M655 545 H965 M890 505 H965 M890 605 H940 V565 H965" class="control"/>
+<path d="M1060 500 V220" class="control"/><text x="40" y="760" class="small">Mechanical hydraulic brake is independent. Opening the contactor is last-resort isolation and removes regenerative braking.</text>
+</svg>
