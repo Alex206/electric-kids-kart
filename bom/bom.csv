@@ -1,0 +1,37 @@
+Category,Criticality,Item,Unit,Qty,Unit price EUR,Line total EUR,Scenario,Specification,Preferred source,Alternative source,Notes
+Frame,Required,30x30x2 S235 square tube,m,10,12,120,Recommended,Confirm existing stock first,local steel supplier,,Existing material may reduce cost
+Frame,Required,25x25x2 S235 square tube,m,5,8,40,Recommended,Secondary rails and guards,local steel supplier,,
+Frame,Required,5-6 mm steel plate,lot,1,70,70,Recommended,"Motor, jackshaft, axle and steering brackets",local steel supplier,,
+Rear axle,Required,30 mm x approx 950 mm kart axle,pcs,1,163.95,163.95,Recommended,Length must match wheels and hubs,https://kartkings.de/products/otk-hinterachse-typ-n-30x950mm,,
+Rear axle,Required,30 mm axle bearings,pcs,3,12.8,38.4,Recommended,Three bearings improve support; confirm carrier type,https://www.prespo.de/hinterachsaufbau/achslager/,,
+Rear axle,Required,Bearing carriers/cassettes,set,1,60,60,Recommended,Matched to bearings and brackets,,,
+Rear axle,Required,Rear wheel hubs,set,1,70,70,Recommended,Must match existing wheel bolt pattern,,,TBD after wheel measurement
+Rear axle,Required,Sprocket carrier 30 mm,pcs,1,35,35,Recommended,#35 sprocket interface,,,
+Brakes,Required,Brake disc carrier 30 mm,pcs,1,34.7,34.7,Recommended,Confirm disc bolt circle,https://www.dk-kartshop.de/hinterachse-und-zubehoer/bremsscheibenaufnahme-30mm-silber.html?language=de,,
+Brakes,Required,Hydraulic rear brake kit 180-220 mm,set,1,130,130,Recommended,"Matched master cylinder, caliper and disc",,,Do not mix unknown components
+Brakes,Required,"Brake pedal, pivot and linkage",set,1,45,45,Recommended,4.5-5.5:1 pedal ratio,,,
+Steering,Required,Kart steering kit,set,1,184.79,184.79,Recommended,Preferred known kart supplier,https://www.motokay.de/weiteres-zubehoer/lenker/lenkerzubehoer/moturo-lenkrad-fuer-150ccm-go-kart_6236050_184519,https://www.manomano.de/p/lenkung-lenkgetriebe-spurstange-montage-set-for-go-kart-110cc-89475848,Generic set approx. EUR 64
+Drivetrain,Required,48 V 2 kW MY1020D BLDC motor,pcs,1,149.99,149.99,Recommended,Motor-only option,https://happy-motorparts.de/Elektromotor-48-Volt-DC-2000-Watt-MY1020D-brushless-buerstenlos,https://eur.vevor.com/brushless-dc-motor-c_11227/vevor-electric-brushless-dc-motor-brushless-electric-motor-48v-2000w-controller-p_010400593330,Verify Hall connector and shaft
+Drivetrain,Required,20 mm keyed jackshaft,pcs,1,30,30,Recommended,Approx. 300-350 mm,,,
+Drivetrain,Required,20 mm jackshaft bearings,pcs,2,15,30,Recommended,Self-aligning units,,,
+Drivetrain,Required,T8F 44T driven sprocket,pcs,1,20,20,Recommended,Stage 1,,,
+Drivetrain,Required,#35 12T jackshaft sprocket,pcs,1,15,15,Recommended,Stage 2 drive,,,
+Drivetrain,Required,#35 36T axle sprocket,pcs,1,25,25,Recommended,Initial ratio,,,32T and 40T useful for testing
+Drivetrain,Required,T8F and #35 chains,set,1,40,40,Recommended,Include master links,,,
+Drivetrain,Required,Chain guards and tensioners,lot,1,50,50,Recommended,Full fixed guard,,,
+Electrical,Required,Kelly KLS7212S controller,pcs,1,187,187,Recommended,"24-72 V, Hall support, programmable",https://kellycontroller.eu/index.php?dispatch=products.view&product_id=3002,https://www.kellycontrollers.eu/kls7212s,Price varies by distributor
+Electrical,Required,48 V high-current battery 0.9-1.5 kWh,pcs,1,750,750,Recommended,Professional custom LiFePO4 preferred,,https://shop.danenergy.com/de/products/li-ion-battery-softpack-13s4p-48v-20ah-100a,Require >=60 A continuous
+Electrical,Required,Chemistry-matched charger,pcs,1,100,100,Recommended,Exact final voltage and connector,,,
+Electrical,Required,"Main DC contactor >=72 V, >=100 A",pcs,1,90,90,Recommended,12 V coil preferred,,,
+Electrical,Required,DC fuse and holder >=70 V,set,1,35,35,Recommended,60-80 A after coordination,,https://www.service-doebeln.de/shop/de/MEGA-Sicherungen-80A-58V-fuer-48V-Systeme.html,58 V example is price reference only
+Electrical,Required,48-to-12 V 10 A DC/DC,pcs,1,23.8,23.8,Recommended,Input must include full battery voltage,https://www.power-and-storage.de/shop/DC-DC-Wandler-48V-zu-12V-10A-p174773330,,
+Electrical,Required,Precharge resistor/relay and service disconnect,set,1,60,60,Recommended,Size from controller capacitance,,,
+Controls,Required,Hall accelerator pedal,pcs,1,35,35,Recommended,Return spring and fail-safe signal,,,
+Controls,Required,"Parent key, mode switch and E-stop",set,1,50,50,Recommended,Key removable,,,
+Controls,Recommended,Fail-safe remote torque inhibit,set,1,60,60,Recommended,Signal loss inhibits torque,,,Not sole emergency control
+Controls,Required,Brake switch and throttle interlock,set,1,25,25,Recommended,Brake overrides throttle,,,
+Wiring,Required,"16 mm2 cable, lugs, covers and signal harness",lot,1,120,120,Recommended,Crimp with correct tooling,,,
+Driver,Required,Kart seat,pcs,1,70,70,Recommended,Fit both drivers with removable insert,,,
+Driver,Required,Seat sliders and pedal adjustment hardware,set,1,60,60,Recommended,"Positive pin/lock, not friction only",,,
+Hardware,Required,"Fasteners, rod ends, keys, collars and paint marks",lot,1,120,120,Recommended,Use retained fasteners on steering/brakes,,,
+Safety,Required,Full-face helmets and protective equipment,lot,1,180,180,Recommended,Proper individual fit,,,Not included in kart hardware subtotal
