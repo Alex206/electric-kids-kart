@@ -30,13 +30,15 @@ Parametric design and build documentation for a small electric go-kart intended 
 
 ## Repository map
 
-- `docs/` — requirements, safety, frame, steering, drivetrain, brakes, electrical system, build sequence and test plan.
+- `docs/` — requirements, safety, frame, steering, drivetrain, brakes, electrical system, build sequence, commissioning, differential options, measurements and procurement.
 - `cad/frame.scad` — editable parametric OpenSCAD model.
-- `cad/frame_preview.stl` and `cad/frame_preview.glb` — generated preview geometry.
-- `drawings/` — frame plan, steering geometry and wiring diagram in SVG.
-- `bom/bom.xlsx` and `bom/bom.csv` — purchasing list, cost scenarios and calculation inputs.
-- `calculations/kart_calc.py` — speed, ratio, tractive-force and stopping calculations.
+- `drawings/` — editable frame plan, steering geometry and electrical schematic in SVG.
+- `bom/bom.csv` — purchasing list with quantities, prices, alternatives and notes.
+- `calculations/` — parameters plus speed, ratio, tractive-force, braking and Ackermann calculations.
 - `config/` — conservative initial settings for VESC and Kelly controllers.
+- `scripts/validate_project.py` and `.github/workflows/validate.yml` — project consistency checks.
+
+Generated convenience files such as PDF, XLSX, PNG, STL and GLB are build/export artifacts rather than the canonical source. They are not currently committed to this repository; the Markdown, CSV, SVG, OpenSCAD and Python files are the editable source of truth.
 
 ## Important safety boundaries
 
@@ -57,7 +59,7 @@ The current realistic range is approximately:
 
 The complete recommended line-item BOM currently totals about **EUR 3,318** before substituting existing material or lower-cost compatible alternatives.
 
-Prices are snapshots and shipping can materially change totals. See `docs/12_procurement.md` and the spreadsheet.
+Prices are snapshots and shipping can materially change totals. See `docs/12_procurement.md` and `bom/bom.csv`.
 
 ## Next required input
 
