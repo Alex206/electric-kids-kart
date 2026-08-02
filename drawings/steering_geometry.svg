@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="720" viewBox="0 0 1000 720">
+<style>text{font-family:Arial,sans-serif;font-size:18px}.small{font-size:14px}.line{stroke:#111;stroke-width:4;fill:none}.guide{stroke:#777;stroke-width:2;stroke-dasharray:8 8;fill:none}.wheel{stroke:#111;stroke-width:6;fill:#ddd}.arm{stroke:#a22;stroke-width:6}.tie{stroke:#277;stroke-width:5}</style>
+<text x="30" y="35">Ackermann steering concept — steering-arm lines point toward rear-axle centre</text>
+<line x1="160" y1="520" x2="840" y2="520" class="line"/><circle cx="500" cy="520" r="8" fill="#111"/><text x="520" y="550">rear axle centre</text>
+<line x1="220" y1="160" x2="220" y2="300" class="wheel"/><line x1="780" y1="160" x2="780" y2="300" class="wheel"/>
+<line x1="220" y1="280" x2="500" y2="520" class="guide"/><line x1="780" y1="280" x2="500" y2="520" class="guide"/>
+<line x1="220" y1="280" x2="285" y2="335" class="arm"/><line x1="780" y1="280" x2="715" y2="335" class="arm"/>
+<circle cx="500" cy="250" r="45" fill="none" stroke="#111" stroke-width="5"/><line x1="500" y1="295" x2="500" y2="360" class="line"/>
+<line x1="500" y1="350" x2="285" y2="335" class="tie"/><line x1="500" y1="350" x2="715" y2="335" class="tie"/>
+<text x="415" y="220">steering shaft</text><text x="375" y="385">two adjustable tie rods</text>
+<text x="30" y="660" class="small">Starting targets: caster 8–10°, camber ~0°, toe 0–2 mm out, positive mechanical stops at ~30° inner-wheel angle.</text>
+</svg>
